@@ -15,7 +15,7 @@ app.use("/api/queries", require("./routes/api/queries"));
 
 // Catch all for page request errors
 app.all("*", (req, res) => {
-  //res.status(404);
+  res.status(404);
   if (req.accepts("html")) {
     res.sendFile(path.join(__dirname, "views", "Peugeot404.jpg"));
   } else if (req.accepts("json")) {
