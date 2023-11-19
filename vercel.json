@@ -1,0 +1,10 @@
+{
+  "buildCommand": "yarn build",
+  "devCommand": "yarn dev",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "express_server/server.js"
+    }
+  ]
+}
