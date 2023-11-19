@@ -13,7 +13,7 @@
     "dev": "yarn workspaces foreach -piv run dev",
     "start": "yarn workspaces foreach -piv run start-node",
     "build": "yarn workspaces foreach -piv run build",
-    "build-static": "cd react_client && npm "
+    "build-static": "cd react_client && npm"
   },
   "dependencies": {
     "concurrently": "8.2.0"
